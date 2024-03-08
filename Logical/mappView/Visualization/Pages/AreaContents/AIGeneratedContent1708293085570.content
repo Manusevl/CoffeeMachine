@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_76344" height="1024" width="1280" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="20" width="240" height="40" zIndex="0" text="Temperature Control Panel" borderWidth="2px" backColor="rgba(0, 0, 0, 1)" borderStyle="solid" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="1" x1="0" x2="1280" y1="80" y2="80" />
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="10" x1="250" x2="250" y1="80" y2="1024" />
+
+    <Widget xsi:type="widgets.brease.Label" id="label_zone_1" top="100" left="20" width="220" height="40" zIndex="2" text="Zone 1" backColor="rgba(50, 50, 50, 1)" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_zone_on_1" top="150" left="25" width="100" height="40" zIndex="12" text="Turn On" backColor="rgba(0, 150, 0, 1)" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_zone_off_1" top="150" left="135" width="100" height="40" zIndex="22" text="Turn Off" backColor="rgba(150, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput_zone_1" top="200" left="25" zIndex="32" value="200" />
+
+    <!-- Repeat for each temperature zone -->
+    <!-- Zone 2 to 10 -->
+    <!-- ... Additional zones with unique IDs and appropriate zIndex values -->
+
+  </Widgets>
+</Content>

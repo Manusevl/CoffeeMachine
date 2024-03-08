@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_487231" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="20" width="160" height="40" zIndex="0" text="MAIN VISU" borderWidth="2px" backColor="rgba(255, 192, 203, 1)" borderStyle="solid" textColor="rgba(255, 192, 203, 1)" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="1" x1="0" x2="800" y1="80" y2="80" />
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="2" x1="180" x2="180" y1="80" y2="600" />
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="140" left="40" width="120" height="42" zIndex="3" text="Button1" backColor="rgba(255, 192, 203, 1)" textColor="rgba(255, 192, 203, 1)" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="160" left="260" zIndex="4" value="30" backColor="rgba(255, 192, 203, 1)" textColor="rgba(255, 192, 203, 1)" />
+    <Widget xsi:type="widgets.brease.Button" id="Button2" top="140" left="460" width="120" height="42" zIndex="5" text="Big Button" backColor="rgba(255, 192, 203, 1)" textColor="rgba(255, 192, 203, 1)" />
+    <Widget xsi:type="widgets.brease.RadioButtonGroup" id="RadioButtonGroup1" top="280" left="239" width="321" height="100" zIndex="6">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton1" top="40" left="21" zIndex="0" text="Option1" backColor="rgba(255, 192, 203, 1)" textColor="rgba(255, 192, 203, 1)" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton2" top="40" left="121" zIndex="1" text="Option2" backColor="rgba(255, 192, 203, 1)" textColor="rgba(255, 192, 203, 1)" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

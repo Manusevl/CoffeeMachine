@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="AreaContentsPackage" PackageType="AreaContentsPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Content.content</Object>
+    <Object Type="File">AIGeneratedContent1708275732390.content</Object>
+    <Object Type="File">AIGeneratedContent1708276866789.content</Object>
+    <Object Type="File">AIGeneratedContent1708277495191.content</Object>
+    <Object Type="File">AIGeneratedContent1708277906931.content</Object>
+    <Object Type="File">AIGeneratedContent1708278073540.content</Object>
+    <Object Type="File">AIGeneratedContent1708278376861.content</Object>
+    <Object Type="File">AIGeneratedContent1708278419005.content</Object>
+    <Object Type="File">AIGeneratedContent1708278725144.content</Object>
+    <Object Type="File">AIGeneratedContent1708278938127.content</Object>
+    <Object Type="File">AIGeneratedContent1708279230877.content</Object>
+    <Object Type="File">AIGeneratedContent1708290119159.content</Object>
+    <Object Type="File">AIGeneratedContent1708290120034.content</Object>
+    <Object Type="File">AIGeneratedContent1708290378848.content</Object>
+    <Object Type="File">AIGeneratedContent1708290461103.content</Object>
+    <Object Type="File">AIGeneratedContent1708290583805.content</Object>
+    <Object Type="File">AIGeneratedContent1708290833769.content</Object>
+    <Object Type="File">AIGeneratedContent1708290839868.content</Object>
+    <Object Type="File">AIGeneratedContent1708290870443.content</Object>
+    <Object Type="File">AIGeneratedContent1708291005586.content</Object>
+    <Object Type="File">AIGeneratedContent1708291622685.content</Object>
+    <Object Type="File">AIGeneratedContent1708291708146.content</Object>
+    <Object Type="File">AIGeneratedContent1708291990787.content</Object>
+    <Object Type="File">AIGeneratedContent1708292693703.content</Object>
+    <Object Type="File">AIGeneratedContent1708292847407.content</Object>
+    <Object Type="File">AIGeneratedContent1708292964563.content</Object>
+    <Object Type="File">AIGeneratedContent1708293085570.content</Object>
+    <Object Type="File">AIGeneratedContent1708293889328.content</Object>
+    <Object Type="File">AIGeneratedContent1708326386151.content</Object>
+    <Object Type="File">AIGeneratedContent1708327186422.content</Object>
+    <Object Type="File">AIGeneratedContent1708332548812.content</Object>
+    <Object Type="File">AIGeneratedContent1708336580581.content</Object>
+    <Object Type="File">AIGeneratedContent1708354067014.content</Object>
+    <Object Type="File">AIGeneratedContent1708363276392.content</Object>
+    <Object Type="File">Content1.content</Object>
+  </Objects>
+</Package>

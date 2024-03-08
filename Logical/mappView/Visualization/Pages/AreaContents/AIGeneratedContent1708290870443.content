@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_9384573" height="300" width="600" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="10" left="10" width="100" height="30" zIndex="0" text="Label" borderWidth="1px" backColor="rgba(255, 255, 255, 1)" borderStyle="solid" textColor="rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="1" x1="0" x2="600" y1="50" y2="50" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="60" left="10" width="80" height="30" zIndex="2" text="Label" borderWidth="1px" backColor="rgba(255, 255, 255, 1)" borderStyle="solid" textColor="rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="60" left="120" zIndex="3" value="0" />
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="60" left="500" width="90" height="30" zIndex="4" text="Button" backColor="rgba(0, 122, 204, 1)" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="100" left="10" width="80" height="30" zIndex="5" text="Label" borderWidth="1px" backColor="rgba(255, 255, 255, 1)" borderStyle="solid" textColor="rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="100" left="120" zIndex="6" value="0" />
+    <Widget xsi:type="widgets.brease.Button" id="Button2" top="100" left="500" width="90" height="30" zIndex="7" text="Button" backColor="rgba(0, 122, 204, 1)" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="8" x1="0" x2="600" y1="140" y2="140" />
+    <Widget xsi:type="widgets.brease.Button" id="Button3" top="150" left="250" width="100" height="30" zIndex="9" text="Button" backColor="rgba(0, 122, 204, 1)" textColor="rgba(255, 255, 255, 1)" />
+  </Widgets>
+</Content>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_928347" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label_Title" top="20" left="20" width="300" height="40" zIndex="0" text="Injection Molding Temperature Control" borderWidth="0" backColor="rgba(0, 0, 0, 1)" borderStyle="none" textColor="rgba(255, 255, 255, 1)" />
+    
+    <Widget xsi:type="widgets.brease.Line" id="Line_Header" zIndex="1" x1="0" x2="800" y1="60" y2="60" />
+
+    <!-- Temperature Zone Controls -->
+		<!-- Zone 1 -->
+      <Widget xsi:type="widgets.brease.Label" id="Label_Zone1" top="80" left="20" width="200" height="30" zIndex="2" text="Zone 1" textColor="rgba(255, 255, 255, 1)" />
+      <Widget xsi:type="widgets.brease.Button" id="Button_Zone1On" top="80" left="240" width="90" height="30" zIndex="3" text="On" backColor="rgba(0, 128, 0, 1)" textColor="rgba(255, 255, 255, 1)" />
+      <Widget xsi:type="widgets.brease.Button" id="Button_Zone1Off" top="80" left="340" width="90" height="30" zIndex="4" text="Off" backColor="rgba(128, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" />
+      <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput_Zone1" top="80" left="450" width="120" height="30" zIndex="5" value="200" />
+      
+      <!-- Zone 2 to Zone 10 (repeated pattern with adjusted top position and zIndex) -->
+      <!-- Repeat this pattern for each temperature zone, incrementing the top position by 50 for each, and zIndex accordingly -->
+      
+      <Widget xsi:type="widgets.brease.Label" id="Label_Zone2" top="130" left="20" width="200" height="30" zIndex="6" text="Zone 2" textColor="rgba(255, 255, 255, 1)" />
+      <Widget xsi:type="widgets.brease.Button" id="Button_Zone2On" top="130" left="240" width="90" height="30" zIndex="7" text="On" backColor="rgba(0, 128, 0, 1)" textColor="rgba(255, 255, 255, 1)" />
+      <Widget xsi:type="widgets.brease.Button" id="Button_Zone2Off" top="130" left="340" width="90" height="30" zIndex="8" text="Off" backColor="rgba(128, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" />
+      <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput_Zone2" top="130" left="450" width="120" height="30" zIndex="9" value="200" />
+      
+      <!-- Add Zones 3 to 10 here with the same pattern -->
+      <!-- ... -->
+    
+    <!-- Fill in the remaining zones accordingly -->
+    
+  </Widgets>
+</Content>

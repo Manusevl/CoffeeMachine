@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_498237" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="10" left="20" width="760" height="50" zIndex="0" text="THIS IS ANOTHER TEST" borderWidth="1px" backColor="rgba(0, 0, 0, 0)" borderStyle="solid" textColor="rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="70" left="20" width="180" height="80" zIndex="1" text="MOTION ON" borderWidth="1px" backColor="rgba(0, 0, 0, 0)" borderStyle="solid" textColor="rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="160" left="20" width="60" height="40" zIndex="2" value="30" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="160" left="100" width="60" height="40" zIndex="3" value="10" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput3" top="160" left="180" width="60" height="40" zIndex="4" value="30" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput4" top="160" left="260" width="60" height="40" zIndex="5" value="20" />
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="210" left="20" width="320" height="80" zIndex="6" text="BUTTON OFF" backColor="rgba(255, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.RadioButtonGroup" id="RadioButtonGroup1" top="70" left="420" width="150" height="200" zIndex="7">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton1" top="0" left="20" zIndex="0" text="Main" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton2" top="40" left="20" zIndex="1" text="Second" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton3" top="80" left="20" zIndex="2" text="Third" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton4" top="120" left="20" zIndex="3" text="Fourth" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton5" top="160" left="20" zIndex="4" text="Fifth" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput5" top="300" left="600" width="60" height="40" zIndex="8" value="30" />
+  </Widgets>
+</Content>

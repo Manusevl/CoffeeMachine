@@ -1,0 +1,3 @@
+VAR_CONFIG
+	Cyclic#1.::doDoseCoffee AT %QX."X20DO6321".DigitalOutput05;
+END_VAR

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_9647503" height="300" width="600" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="20" left="50" width="100" height="50" zIndex="0" text="ON BUTTON" backColor="rgba(0, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Button" id="Button2" top="20" left="200" width="100" height="50" zIndex="1" text="OFF BUTTON" backColor="rgba(0, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="100" left="20" width="140" height="30" zIndex="2" text="TEMPERATURE" borderWidth="2px" backColor="rgba(0, 0, 0, 1)" borderStyle="solid" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="100" left="170" zIndex="3" value="350" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="150" left="20" width="140" height="30" zIndex="4" text="PRESSURE" borderWidth="2px" backColor="rgba(0, 0, 0, 1)" borderStyle="solid" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="150" left="170" zIndex="5" value="110" />
+    <Widget xsi:type="widgets.brease.RadioButtonGroup" id="RadioButtonGroup1" top="200" left="20" width="300" height="80" zIndex="6">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton1" top="0" left="0" zIndex="0" text="Option 1" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton2" top="30" left="0" zIndex="1" text="Option 2" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton3" top="60" left="0" zIndex="2" text="Option 3" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

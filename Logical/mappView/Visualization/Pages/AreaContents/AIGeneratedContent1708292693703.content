@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_12345" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="20" width="760" height="40" zIndex="0" text="Injection Molding Machine Control" borderWidth="2px" backColor="rgba(0, 0, 0, 1)" borderStyle="solid" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="1" x1="0" x2="800" y1="70" y2="70" />
+    
+    <!-- Temperature Zone Widgets -->
+    <!-- Zone 1 -->
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="100" left="20" width="160" height="30" zIndex="2" text="Zone 1" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Button" id="Button2" top="140" left="20" width="80" height="30" zIndex="3" text="On" />
+    <Widget xsi:type="widgets.brease.Button" id="Button3" top="140" left="120" width="80" height="30" zIndex="4" text="Off" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="100" left="220" zIndex="5" value="0" />
+
+    <!-- Zone 2 to Zone 10 with increasing zIndex -->
+    <!-- ... -->
+
+    <!-- Zone 10 -->
+    <Widget xsi:type="widgets.brease.Label" id="Label11" top="500" left="20" width="160" height="30" zIndex="12" text="Zone 10" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Button" id="Button20" top="540" left="20" width="80" height="30" zIndex="13" text="On" />
+    <Widget xsi:type="widgets.brease.Button" id="Button21" top="540" left="120" width="80" height="30" zIndex="14" text="Off" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput11" top="500" left="220" zIndex="15" value="0" />
+    <!-- ... -->
+  </Widgets>
+</Content>

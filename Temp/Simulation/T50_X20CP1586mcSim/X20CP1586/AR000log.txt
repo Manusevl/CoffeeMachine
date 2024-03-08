@@ -1,0 +1,21 @@
+Wed Mar  6 09:31:59 2024
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Wed Mar  6 09:31:59 2024
+No ARsim registration found!
+
+Wed Mar  6 09:31:59 2024
+InstanceName: 0000178547f81d39
+
+Wed Mar  6 09:31:59 2024
+WorkingDirectory: C:\AsProjects\CoffeeMachine\Temp\Simulation\T50_X20CP1586mcSim\X20CP1586\
+
+Wed Mar  6 09:31:59 2024
+COMMAND_COLDSTART
+
+Wed Mar  6 09:32:01 2024
+Version: B4.93
+
+Wed Mar  6 11:55:14 2024
+COMMAND_TERMINATE
+

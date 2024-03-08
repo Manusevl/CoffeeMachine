@@ -1,0 +1,18 @@
+Wed Feb 21 09:03:32 2024
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Wed Feb 21 09:03:32 2024
+No ARsim registration found!
+
+Wed Feb 21 09:03:32 2024
+InstanceName: 00000c80f045c96b
+
+Wed Feb 21 09:03:32 2024
+WorkingDirectory: C:\AsProjects\CoffeeMachine\Temp\Simulation\Simulation\ARsim\
+
+Wed Feb 21 09:03:32 2024
+COMMAND_COLDSTART
+
+Wed Feb 21 09:03:33 2024
+COMMAND_TERMINATE
+

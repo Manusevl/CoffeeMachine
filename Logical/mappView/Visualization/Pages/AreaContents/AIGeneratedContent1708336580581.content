@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_8342801" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="20" width="240" height="40" zIndex="0" text="MAIN VISUALIZATION" borderWidth="2px" backColor="rgba(0, 0, 0, 1)" borderStyle="solid" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="80" left="20" width="120" height="40" zIndex="1" text="HOME" />
+    <Widget xsi:type="widgets.brease.Button" id="Button2" top="130" left="20" width="120" height="40" zIndex="2" text="CONFIG" />
+    <Widget xsi:type="widgets.brease.Button" id="Button3" top="180" left="20" width="120" height="40" zIndex="3" text="TEMP" />
+    <Widget xsi:type="widgets.brease.Button" id="Button4" top="230" left="20" width="120" height="40" zIndex="4" text="TUNE" />
+    <Widget xsi:type="widgets.brease.Button" id="Button5" top="540" left="20" width="120" height="40" zIndex="5" text="OFF" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="80" left="260" zIndex="6" value="30" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="80" left="420" width="160" height="40" zIndex="7" text="This is value 1" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="130" left="260" zIndex="8" value="20" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="130" left="420" width="160" height="40" zIndex="9" text="This is value 2" />
+    <Widget xsi:type="widgets.brease.RadioButtonGroup" id="RadioButtonGroup1" top="190" left="260" width="300" height="100" zIndex="10">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton1" top="0" left="0" zIndex="0" text="Option 1" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton2" top="0" left="100" zIndex="1" text="Option 2" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="190" left="580" width="160" height="40" zIndex="11" text="This is a Radio button" />
+  </Widgets>
+</Content>
