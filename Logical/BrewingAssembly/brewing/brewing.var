@@ -7,7 +7,7 @@
  * Created: June 14, 2007
  *******************************************************************)
 VAR
-	pBrewingText_ : UDINT := 0;
+	pBrewingTextMachine_ : UDINT := 0;
 	startBoool : BOOL := FALSE;
 	
 END_VAR

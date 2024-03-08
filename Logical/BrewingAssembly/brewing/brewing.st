@@ -11,8 +11,8 @@
 
 PROGRAM _CYCLIC
 	(* plain text information of current step *)	
-	IF (pBrewingText_ <> 0) THEN
-			strcpy(ADR(gBrewing.status.brewingStepText), pBrewingText_);
+	IF (pBrewingTextMachine_ <> 0) THEN
+			strcpy(ADR(gBrewing.status.brewingStepText), pBrewingTextMachine_);
 	END_IF
 
 	IF startBoool = TRUE THEN
@@ -22,7 +22,7 @@ PROGRAM _CYCLIC
 	CASE gBrewing.status.sBrewingStep OF
 		(* wait for start signal *)
 		sSTANDBY:
-			pBrewingText_ := ADR('sSTANDBY');
+			pBrewingTextMachine_ := ADR('sSTANDBY');
 
 			IF (gBrewing.cmd.start = TRUE) THEN
 				gMainLogic.status.progressStep := 1;			(* brewing in progress *)				 
@@ -33,7 +33,7 @@ PROGRAM _CYCLIC
 		 
 		(* dose ingredients according to recipe *)	
 		sDOSING:
-			pBrewingText_ := ADR('sDOSING');
+			pBrewingTextMachine_ := ADR('sDOSING');
 
 			milkTP  (IN := 1, PT := REAL_TO_TIME(gMainLogic.par.recipe.milk   * 10));	(* 100ml -> 1s *)
 			sugarTP (IN := 1, PT := REAL_TO_TIME(gMainLogic.par.recipe.sugar  * 10));  (* 50g -> 500ms *)
@@ -54,7 +54,7 @@ PROGRAM _CYCLIC
 
 		(* brew coffee *)	
 		sBREWING:
-			pBrewingText_ := ADR('sBREWING');
+			pBrewingTextMachine_ := ADR('sBREWING');
 
 			(* start brewing if set temperature has been reached *)
 			IF (gHeating.status.setTempOK = TRUE) THEN
@@ -71,7 +71,7 @@ PROGRAM _CYCLIC
 
 		(* all done *)	
 		sFINISH:
-			pBrewingText_ := ADR('sFINISH');
+			pBrewingTextMachine_ := ADR('sFINISH');
  		
 			gMainLogic.status.progressStep := 2;			(* ready for take out *)			
 			
