@@ -15,7 +15,7 @@ PROGRAM _CYCLIC
 			strcpy(ADR(gBrewing.status.brewingStepText), pBrewingText_);
 	END_IF
 
-	IF EDGEPOS(diStart_Coffee1) = TRUE THEN
+	IF startBoool = TRUE THEN
  		gMainLogic.status.progressStep := 0;			(* transporting cup to brewing station *) 		
 	END_IF
 

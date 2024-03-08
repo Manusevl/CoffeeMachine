@@ -8,6 +8,8 @@
  *******************************************************************)
 VAR
 	pBrewingText_ : UDINT := 0;
+	startBoool : BOOL := FALSE;
+	
 END_VAR
 VAR CONSTANT
 	sSTANDBY : UINT := 0;
